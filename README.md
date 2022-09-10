@@ -37,7 +37,7 @@ The whole project is based on Python 3 and PyTorch, the version we used is Pytho
 the project and other key packages could be downloaded and install by:
 
 ```
-$ git clone https://github.com/weserubung/HorizonNet
+$ git clone https://github.com/FJsRepo/HorizonNet
 $ cd HorizonNet
 $ pip install -r requirements.txt
 ```
