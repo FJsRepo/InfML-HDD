@@ -24,11 +24,8 @@ Other contributions：
 
 ## About the dataset
 HorizonSet was constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
-Part of the stage images processed by Prior-Branch are listed [here](), they represent the binarized 
-feature maps and their corresponding average row grayscale images, respectively, you could acquire by yourself with the code
-in ./nets/Proposed.
-
-Part of the test images that are marked with gt and pred are also shown [here](), you could draw these images via the annotated line in test.py.
+Part of the stage images processed by Prior-Branch and marked tested images are listed [here](), they represent the binarized 
+feature maps, their corresponding average row grayscale images, and the test images that are marked with gt and pred, respectively, you could acquire these images by yourself with the code in ./nets/Proposed.py and test.py via the annotated line.
 
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
