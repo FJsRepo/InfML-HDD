@@ -7,7 +7,7 @@
 ## About this HorizonNet
 HorizonNet is designed for horizon detection.
 This code aims to reproduce the results of HorizonNet in our paper, hence part of the test data is included in ./data/test_set and 
-the trained model from model_386 to model_416 is included in ./experiments/Horizon/models.
+the trained model from model_386 to model_416 can be downloaded [here](), and after download, you should put them in ./experiments/Horizon/models.
 
 The framework of the project is based on [PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet) from Lucas Tabelini for Lane detection (thanks for their outstanding work),
 and changes have been made according to the characteristics and application fields of HorizonSet.
@@ -24,11 +24,11 @@ Other contributions：
 
 ## About the dataset
 HorizonSet was constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
-Part of the stage images processed by Prior-Branch are listed in ./images and ./images_binary, they represent the binarized 
+Part of the stage images processed by Prior-Branch are listed [here](), they represent the binarized 
 feature maps and their corresponding average row grayscale images, respectively, you could acquire by yourself with the code
 in ./nets/Proposed.
 
-Part of the test images that are marked with gt and pred are also shown in ./Draw_images, you could draw these images via the annotated line in test.py.
+Part of the test images that are marked with gt and pred are also shown [here](), you could draw these images via the annotated line in test.py.
 
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
