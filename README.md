@@ -30,7 +30,7 @@ feature maps, their corresponding average row grayscale images, and the test ima
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
 
-The whole project is based on Python 3 and PyTorch, the version we used is Python-3.6.13 and PyTorch-1.7.1, 
+The whole project is based on Python 3 and PyTorch, the version we used  Python-3.6.13 and PyTorch-1.7.1, 
 the project and other key packages could be downloaded and install by:
 
 ```
