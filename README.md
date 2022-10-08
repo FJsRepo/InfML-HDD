@@ -31,7 +31,7 @@ feature maps, their corresponding average row grayscale images, and the test ima
 To run the code you should first install the correct environment.
 
 The whole project is based on Python 3 and PyTorch, the version we used are Python-3.6.13 and PyTorch-1.7.1, 
-the project and other key packages could be downloaded and install by:
+the project and other key packages could be downloaded and installed by:
 
 ```
 $ git clone https://github.com/FJsRepo/HorizonNet
