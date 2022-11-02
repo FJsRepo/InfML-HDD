@@ -7,7 +7,7 @@
 ## About this Algorithm
 The proposed algorithm is designed for horizon detection.
 This code aims to reproduce the results of in our paper, hence part of the test data is included in ./data/test_set and 
-the trained model from model_386 to model_416 can be downloaded [here](https://drive.google.com/drive/folders/1Vt3C1QYJJp4FzUwde7bj444rH5MgxEIv?usp=sharing), and after download, you should decompression them in ./experiments.
+the trained model from model_386 to model_416 can be downloaded [here](https://drive.google.com/drive/folders/1Vt3C1QYJJp4FzUwde7bj444rH5MgxEIv?usp=sharing), and after download, you should decompression them in ./experiments/.
 
 The framework of the project is based on [PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet) from Lucas Tabelini for Lane detection (thanks for their outstanding work),
 and changes have been made according to the characteristics and application fields of horizon detection.
