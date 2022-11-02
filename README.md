@@ -1,7 +1,7 @@
 <div align="center">
 
 # HorizonNet
-![HorizonNet](figures/Flowchart.pdf "HorizonNet")
+![HorizonNet](figures/Flowchart.png "HorizonNet")
 </div>
 
 ## About this HorizonNet
