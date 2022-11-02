@@ -19,11 +19,6 @@ Other contributions：
 (1)An HLL based on the HLF is designed and optimized specially to process the feature maps to highlight the target and eliminate the interferences simultaneously. We carefully studied the principle of the HLF and proved its effectiveness through extensive experiments.
 
 (2)According to the structural characteristics of the multiple feature maps inside CNN, a Positioning-Module is presented, which can quickly detect the position of the horizon with acceptable additional computational cost. 
-<<<<<<< HEAD
-=======
-
-(3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that covers a variety of complex scenes is presented.
->>>>>>> 0971e425f36a330f279753a8e097207a49edee3e
 
 (3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that covers a variety of complex scenes is presented.
 
