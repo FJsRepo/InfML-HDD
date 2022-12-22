@@ -1,6 +1,6 @@
 <div align="center">
 
-# HorizonNet
+# InfML-HDD
 ![HorizonNet](figures/Flowchart.png "HorizonNet")
 </div>
 
