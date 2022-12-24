@@ -6,8 +6,7 @@
 
 ## About this Algorithm
 The proposed algorithm is designed for horizon detection.
-This code aims to reproduce the results in our paper, hence part of the test data is included in ./data/test_set and 
-the trained model from model_386 to model_416 can be downloaded [here](https://drive.google.com/file/d/1FGwSQpNX4mv9EUOKVBcPCoSJKTBRHpY0/view?usp=sharing), and after download, you should decompression them in ./experiments/.
+This code aims to reproduce the results in our paper, part of the test data is included in ./data/test_set.
 
 The framework of the project is based on [PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet) from Lucas Tabelini for Lane detection (thanks for their outstanding work),
 and changes have been made according to the characteristics and application fields of horizon detection.
@@ -22,16 +21,16 @@ Other contributions：
 
 (3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that covers a variety of complex scenes is presented.
 
-## About the dataset
+## About the datasets and trained models
 All dataset was constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
 You could acquire the marked images by yourself with the code in ./nets/Proposed.py and test.py via the annotated lines.
 
-Download the test set of InfML-HDD dataset [here](https://drive.google.com/file/d/1hDJVj7U90SS0jknrVwmIYLRZVFpcZ50i/view?usp=sharing).
+Download the test set of **InfML-HDD** dataset [here](https://drive.google.com/file/d/1hDJVj7U90SS0jknrVwmIYLRZVFpcZ50i/view?usp=sharing), and the trained models from model_386 to model_416 could be downloaded [here](https://drive.google.com/file/d/1FGwSQpNX4mv9EUOKVBcPCoSJKTBRHpY0/view?usp=sharing), and after download, you should decompression them in **./experiments/**
 
-In MAR-DCT dataset there are 3 infrared videos without ground truth labels, firstly, we extracted all frames and remove the frames that were damaged, then crop the black box around the original image and obtain 7374 frames with the size of 704$\times$576 pixels, finally, we resize all these frames to 384$\times$288 pixels and labeled them one by one via Labelme software. Download MAR-DCT dataset [here](https://drive.google.com/file/d/1zrQBrJMc381pKCg_jPEp1tqoMHHWA_Sa/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1SBTqiMHEUdb8FbkSkrp-MonNfyCcmZvd/view?usp=sharing).
+In **MAR-DCT** dataset there are 3 infrared videos without ground truth labels, firstly, we extracted all frames and remove the frames that were damaged, then crop the black box around the original image and obtain 7374 frames with the size of 704$\times$576 pixels, finally, we resize all these frames to 384$\times$288 pixels and labeled them one by one via Labelme software. Download **MAR-DCT** dataset [here](https://drive.google.com/file/d/1zrQBrJMc381pKCg_jPEp1tqoMHHWA_Sa/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1SBTqiMHEUdb8FbkSkrp-MonNfyCcmZvd/view?usp=sharing).
 
-In Singapore Maritime dataset there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920$\times$1080 to 384$\times$288 pixels. The total frames are 13162. Besides, although Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames Singapore Near-infra Red On-Shore dataset (Singapore-NIR).
-Download Singapore-NIR [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
+In **Singapore Maritime dataset** there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920$\times$1080 to 384$\times$288 pixels. The total frames are 13162. Besides, although Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames Singapore Near-infra Red On-Shore dataset (**Singapore-NIR**).
+Download **Singapore-NIR** [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
 
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
