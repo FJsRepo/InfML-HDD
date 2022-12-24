@@ -1,6 +1,6 @@
 <div align="center">
 
-# InfML-HDD
+# A Novel Real-Time Infrared Horizon Detection Algorithm
 ![HorizonNet](figures/Flowchart.png "HorizonNet")
 </div>
 
