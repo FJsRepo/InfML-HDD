@@ -30,6 +30,7 @@ Download the test set of **InfML-HDD** dataset [here](https://drive.google.com/f
 In **MAR-DCT** dataset there are 3 infrared videos without ground truth labels, firstly, we extracted all frames and remove the frames that were damaged, then crop the black box around the original image and obtain 7374 frames with the size of 704$\times$576 pixels, finally, we resize all these frames to 384$\times$288 pixels and labeled them one by one via Labelme software. Download **MAR-DCT** dataset [here](https://drive.google.com/file/d/1zrQBrJMc381pKCg_jPEp1tqoMHHWA_Sa/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1SBTqiMHEUdb8FbkSkrp-MonNfyCcmZvd/view?usp=sharing).
 
 If you use **MAR-DCT** dataset, you can refer to the following article.
+```
 @inproceedings{bloisi2015argos,
   title={ARGOS-Venice boat classification},
   author={Bloisi, Domenico D and Iocchi, Luca and Pennisi, Andrea and Tombolini, Luigi},
@@ -38,11 +39,13 @@ If you use **MAR-DCT** dataset, you can refer to the following article.
   year={2015},
   organization={IEEE}
 }
+```
 
 In **Singapore Maritime dataset** there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920$\times$1080 to 384$\times$288 pixels. The total frames are 13162. Besides, although Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames Singapore Near-infra Red On-Shore dataset (**Singapore-NIR**).
 Download **Singapore-NIR** [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
 
 If you use **Singapore-NIR** dataset, you can refer to the following article.
+```
 @article{prasad2017video,
   title={Video processing from electro-optical sensors for object detection and tracking in a maritime environment: A survey},
   author={Prasad, Dilip K and Rajan, Deepu and Rachmawati, Lily and Rajabally, Eshan and Quek, Chai},
@@ -53,6 +56,7 @@ If you use **Singapore-NIR** dataset, you can refer to the following article.
   year={2017},
   publisher={IEEE}
 }
+```
 
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
