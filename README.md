@@ -78,4 +78,4 @@ If your IDE is Pycharm, open the "Edit configuration" and set the parameters as 
 
 And then you can run test.py through the YAML configuration file right in the folder of HorizonNet and wait for the results.
 
-**If you wanna train a new model with this three datasets or other dataset you labeled, follow the way above to run train.py.**
+**If you wanna train a new model with these three datasets or other datasets you labeled, follow the way above to run train.py.**
