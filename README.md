@@ -28,10 +28,10 @@ You could acquire the marked images by yourself with the code in ./nets/Proposed
 
 Download the test set of InfML-HDD dataset [here](https://drive.google.com/file/d/1hDJVj7U90SS0jknrVwmIYLRZVFpcZ50i/view?usp=sharing).
 
-In MAR-DCT dataset there are 3 infrared videos without ground truth labels, firstly, we extracted all frames and remove the frames that were damaged, then crop the black box around the original image and obtain 7374 frames with the size of 704$\times$576 pixels, finally, we resize all these frames to 384$\times$288 pixels and labeled them one by one via Labelme software. MAR-DCT dataset [here](https://drive.google.com/file/d/1zrQBrJMc381pKCg_jPEp1tqoMHHWA_Sa/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1SBTqiMHEUdb8FbkSkrp-MonNfyCcmZvd/view?usp=sharing).
+In MAR-DCT dataset there are 3 infrared videos without ground truth labels, firstly, we extracted all frames and remove the frames that were damaged, then crop the black box around the original image and obtain 7374 frames with the size of 704$\times$576 pixels, finally, we resize all these frames to 384$\times$288 pixels and labeled them one by one via Labelme software. Download MAR-DCT dataset [here](https://drive.google.com/file/d/1zrQBrJMc381pKCg_jPEp1tqoMHHWA_Sa/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1SBTqiMHEUdb8FbkSkrp-MonNfyCcmZvd/view?usp=sharing).
 
 In Singapore Maritime dataset there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920$\times$1080 to 384$\times$288 pixels. The total frames are 13162. Besides, although Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames Singapore Near-infra Red On-Shore dataset (Singapore-NIR).
-Singapore-NIR [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
+Download Singapore-NIR [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
 
 ## Run test.py to validate our model
 To run the code you should first install the correct environment.
