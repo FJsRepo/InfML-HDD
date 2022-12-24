@@ -22,7 +22,7 @@ Other contributions：
 (3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that covers a variety of complex scenes is presented.
 
 ## About the datasets and trained models
-All dataset was constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
+All datasets were constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
 You could acquire the marked images by yourself with the code in ./nets/Proposed.py and test.py via the annotated lines.
 
 Download the test set of **InfML-HDD** dataset [here](https://drive.google.com/file/d/1hDJVj7U90SS0jknrVwmIYLRZVFpcZ50i/view?usp=sharing), and the trained models from model_386 to model_416 could be downloaded [here](https://drive.google.com/file/d/1FGwSQpNX4mv9EUOKVBcPCoSJKTBRHpY0/view?usp=sharing), and after download, you should decompression them in **./experiments/**
