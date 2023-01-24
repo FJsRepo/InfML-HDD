@@ -72,7 +72,7 @@ $ pip install -r requirements.txt
 
 If your IDE is Pycharm, open the "Edit configuration" and set the parameters as follows:
 ```
---exp_name Horizon --cfg HorizonNet_test.yaml
+--exp_name Horizon --cfg test.yaml
 ```
 ![Setting](figures/Setting.jpg "Setting")
 
