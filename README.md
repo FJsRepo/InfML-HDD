@@ -65,7 +65,7 @@ The whole project is based on Python 3 and PyTorch, the version we used are Pyth
 the project and other key packages could be downloaded and installed by:
 
 ```
-$ git clone https://github.com/FJsRepo/HorizonNet
+$ git clone https://github.com/FJsRepo/InfML-HDD
 $ cd HorizonNet
 $ pip install -r requirements.txt
 ```
