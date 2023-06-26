@@ -11,7 +11,7 @@ This code aims to reproduce the results in our paper, part of the test data is i
 The framework of the project is based on [PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet) from Lucas Tabelini for Lane detection (thanks for their outstanding work),
 and changes have been made according to the characteristics and application fields of horizon detection.
  
-The main innovation point is that a new network structure was designed, which deeply integrate the the thoughts of traditional hand-crafted features and CNN to improve detection efficiency.
+The main innovation point is that a new network structure was designed, which deeply integrates the thoughts of traditional hand-crafted features and CNN to improve detection efficiency.
 
 Other contributions：
 
@@ -19,7 +19,7 @@ Other contributions：
 
 (2)According to the structural characteristics of the multiple feature maps inside CNN, a Positioning-Module is presented, which can quickly detect the position of the horizon with acceptable additional computational cost. 
 
-(3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that covers a variety of complex scenes is presented.
+(3)By integrating the traditional idea modules deeply into CNN, the proposed strategy integrates both the intuitiveness of the traditional method and the powerful feature extraction capability of CNN. Moreover, to fully estimate the performance of the algorithm proposed in this paper, a self-built dataset named HorizonSet with more than 6000 samples that cover a variety of complex scenes is presented.
 
 ## About the datasets and trained models
 All datasets were constructed according to the structure of the Tusimple dataset, for every horizon line, 13 gt points were provided.  
@@ -41,7 +41,7 @@ If you use **MAR-DCT** dataset, you can refer to the following article.
 }
 ```
 
-In **Singapore Maritime dataset** there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920 $\times$ 1080 to 384 $\times$ 288 pixels. The total frames are 13162. Besides, although Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames Singapore Near-infra Red On-Shore dataset (**Singapore-NIR**).
+In **Singapore Maritime dataset** there are 30 infrared videos with ground truth labels. To facilitate unified detection, we also extracted all frames and resize them from 1920 $\times$ 1080 to 384 $\times$ 288 pixels. The total frames are 13162. Besides, although the Singapore Maritime dataset contains the ground truth labels of these infrared videos, we relabeled all frames and called these frames the Singapore Near-infra Red On-Shore dataset (**Singapore-NIR**).
 Download **Singapore-NIR** [here](https://drive.google.com/file/d/1JJy5PNlQ6KU2PcrXt-03XIT4IQyDUhBE/view?usp=sharing), trained models [here](https://drive.google.com/file/d/1xNr66W24Y5o216_t6ZmE89V_6DxVMe4u/view?usp=sharing).
 
 If you use **Singapore-NIR** dataset, you can refer to the following article.
@@ -79,3 +79,17 @@ If your IDE is Pycharm, open the "Edit configuration" and set the parameters as 
 And then you can run test.py through the YAML configuration file right in the folder of HorizonNet and wait for the results.
 
 **If you wanna train a new model with these three datasets or other datasets you labeled, follow the way above to run train.py.**
+
+## Citation
+If you use our dataset or compare with our algorithm, plz cite:
+'''
+@ARTICLE{10143695,
+  author={Fu, Jian and Li, Fan and Zhao, Jianhui},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Real-Time Infrared Horizon Detection in Maritime and Land Environments Based on Hyper-Laplace Filter and Convolutional Neural Network}, 
+  year={2023},
+  volume={72},
+  number={},
+  pages={1-13},
+  doi={10.1109/TIM.2023.3282656}}
+'''
