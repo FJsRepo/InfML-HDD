@@ -1,7 +1,7 @@
 <div align="center">
 
 # A Novel Real-Time Infrared Horizon Detection Algorithm
-![HorizonNet](figures/Flowchart.pdf "HorizonNet")
+![HorizonNet](figures/Flowchart.png "HorizonNet")
 </div>
 
 ## About this Algorithm
