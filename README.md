@@ -82,7 +82,7 @@ And then you can run test.py through the YAML configuration file right in the fo
 
 ## Citation
 If you use our dataset or compare with our algorithm, plz cite:
-'''
+```
 @ARTICLE{10143695,
   author={Fu, Jian and Li, Fan and Zhao, Jianhui},
   journal={IEEE Transactions on Instrumentation and Measurement}, 
@@ -92,4 +92,4 @@ If you use our dataset or compare with our algorithm, plz cite:
   number={},
   pages={1-13},
   doi={10.1109/TIM.2023.3282656}}
-'''
+```
